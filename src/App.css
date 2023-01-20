@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: radial-gradient(#fff,#a2aaff);
+  font-family: 'Unbounded';
+}
+.container{
+  display:flex;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  /* background: #F2AC86; */
+  background: #3f3950;
+  opacity: 70%;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  display: flex;
+  font-size: 20px;
+  font-weight: semi-bold;
+}
+.bars{
+
+  display: flex;
+  font-size: 25px;
+
+
+ 
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding: 12px 25px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background:#fff;
+  color: #000;
+  transition: all 0.5s;
+}
+.active{
+  background: #fff;
+  color: #000;
+}
+.icon, .link_text{
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.app>div {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  flex-direction: row !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row>* {
+  margin: 5px;
+}
+
+h1 { left: 35%;
+  position: relative;
+  font-family: 'Damion', cursive;
+  color: #fff;
+  text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
+}
+
+h2 {
+  color: #fff;
 }
