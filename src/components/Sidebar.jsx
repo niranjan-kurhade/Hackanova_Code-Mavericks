@@ -32,6 +32,11 @@ const Sidebar = ({children}) => {
             icon:<FaThList/>
         },
         {
+            path:"/desktop-1",
+            name:"Desktop1",
+            icon:<FaRegChartBar/>
+        },
+        {
             path:"/analytics",
             name:"Analytics",
             icon:<FaRegChartBar/>

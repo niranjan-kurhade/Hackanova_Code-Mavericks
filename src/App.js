@@ -8,7 +8,8 @@ import Analytics from './pages/Analytics.jsx';
 import Community from './pages/Community.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import Calendar from './pages/Calendar.jsx';
-
+import Desktop1 from './pages/Desktop1.js';
+import Desktop2 from './pages/Desktop2.js';
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/cards" element={<Cards />} />
+          <Route path="/desktop-1" element={<Desktop1 />} />
+          <Route path="/desktop-2" element={<Desktop2 />} />
           <Route path="/community" element={<Community />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/calendar" element={<Calendar />} />
