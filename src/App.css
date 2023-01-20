@@ -1,10 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+
 *{
   margin:0;
   padding:0;
   text-decoration: none;
 }
+:root {
 
+  --font-montserrat: Montserrat;
+
+
+  --font-size-base: 20px;
+  --font-size-lg: 30px;
+
+
+  --color-gray-100: #f1f1f1;
+  /* --color-gray-200: #bbe5f2; */
+  --color-gray-300: #a2a2a2;
+  --color-white: #fff;
+  --color-indigo: #31408f;
+  --color-black: #000;
+
+
+  --br-sm: 20px;
+  --br-md: 22px;
+}
 body {
   background-image: radial-gradient(#fff,#a2aaff);
   font-family: 'Unbounded';
