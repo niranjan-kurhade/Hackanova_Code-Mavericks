@@ -25,6 +25,14 @@
   size: 100px;
   
 }
+/* .sidebar{
+  position: sticky;
+} */
+
+.buttons button{
+  /* background-color: #6878ef; */
+  margin-top: 2%;
+}
 .modal > .actions {
   width: 100%;
   padding: 10px 5px;
@@ -221,4 +229,5 @@ transform: translateY(2px);
 
 .infoText{
   color: #2c2c2c;
+  margin-top: 3%;
 }
