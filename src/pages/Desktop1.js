@@ -25,11 +25,11 @@ const Desktop1 = () => {
       <div className="half-of-the1">Half of the time</div>
       <div className="most-of-the1">Most of the time</div>
       <div className="all-of-the1">All of the time</div>
-      <button className="desktop-1-child3" />
-      <button className="desktop-1-child4" onClick={onRectangleButton1Click} />
+      {/* <button className="desktop-1-child3" /> */}
+      <button  onClick={onRectangleButton1Click} />
       <div className="next1">Next</div>
       <div className="previous1">Previous</div>
-      <img className="desktop-1-child5" alt="" src="../ellipse-1.svg" />
+      {/* <img className="desktop-1-child5" alt="" src="../ellipse-1.svg" /> */}
       <div className="div1">1</div>
     </div>
   );

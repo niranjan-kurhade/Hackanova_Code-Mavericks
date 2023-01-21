@@ -53,6 +53,7 @@
     top: 319px;
     left: 676px;
     font-weight: 500;
+    cursor: pointer;
   }
   .occasionally1 {
     top: 416px;
@@ -65,6 +66,7 @@
     top: 513px;
     left: 609px;
     font-weight: 500;
+    cursor: pointer;
   }
   .all-of-the1,
   .most-of-the1 {
@@ -99,6 +101,7 @@
     left: 793px;
     font-weight: 500;
     color: var(--color-white);
+    cursor: pointer;
   }
   .previous1 {
     left: 547px;
@@ -128,4 +131,28 @@
     font-size: var(--font-size-base);
     color: var(--color-black);
     font-family: var(--font-montserrat);
+  }
+
+  .div1{
+    padding: 12px 20px;
+    background-color: var(--color-indigo);
+    border-radius: 25px;
+    left: 666px;
+  }
+
+  .felt-moments-of{
+    left: 375px;
+  }
+
+  .next1{
+    padding: 20px 45px;
+    background-color: var(--color-indigo);
+    border-radius: 25px;
+    margin-left: -80px;
+  }
+
+  .previous1{
+    padding: 20px 25px;
+    background-color: #fff;
+    border-radius: 25px;
   }

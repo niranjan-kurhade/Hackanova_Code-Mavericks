@@ -87,7 +87,7 @@ function Cards () {
         href='https://fonts.googleapis.com/css?family=Alatsi&display=swap'
         rel='stylesheet'
       />
-      <h1>Swipe Away Negative Thoughts</h1>
+      <h1 id="card_title">Swipe Away Negative Thoughts</h1>
       <div className='cardContainer'>
         {db.map((character, index) => (
           <TinderCard

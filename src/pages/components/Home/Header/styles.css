@@ -1,3 +1,4 @@
+
 .home-header {
   text-align: center;
 }
@@ -20,4 +21,13 @@
 .home-header p {
   color: #a9a9a9;
   font-weight: 500;
+}
+
+.blog_title{
+  font-family: 'Unbounded';
+
+}
+
+#blog_subtext{
+  color: #5c5c5c;
 }

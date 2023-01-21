@@ -213,3 +213,12 @@ transform: translateY(2px);
   height: auto;
   width: 70%;
 }
+
+#card_title{
+  margin-left: 35.5%;
+  color: #2c2c2c;
+}
+
+.infoText{
+  color: #2c2c2c;
+}
