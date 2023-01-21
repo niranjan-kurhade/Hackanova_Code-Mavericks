@@ -39,12 +39,14 @@ main{
 }
 .sidebar{
   /* background: #F2AC86; */
-  background: #3f3950;
+  background: #3140b3;
   opacity: 70%;
   color: #fff;
   height: 100vh;
   width: 200px;
   transition: all 0.5s;
+  position: sticky;
+  top: 0px;
 }
 .top_section{
   display: flex;
@@ -102,7 +104,8 @@ main{
   margin: 5px;
 }
 
-h1 { left: 35%;
+h1 { 
+  /* left: 35%; */
   position: relative;
   font-family: 'Damion', cursive;
   color: #fff;

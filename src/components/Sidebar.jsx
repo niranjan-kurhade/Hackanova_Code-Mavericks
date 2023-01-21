@@ -8,7 +8,8 @@ import {
     FaCalendarAlt,
     FaThList,
     FaHome,
-    FaBlog
+    FaBlog,
+    FaBookReader
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
@@ -34,8 +35,8 @@ const Sidebar = ({children}) => {
         },
         {
             path:"/desktop-1",
-            name:"Desktop1",
-            icon:<FaRegChartBar/>
+            name:"Assessment",
+            icon:<FaBookReader/>
         },
         {
             path:"/analytics",
