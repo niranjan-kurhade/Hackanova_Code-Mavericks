@@ -20,7 +20,7 @@ const db = [
     url: ''
   },
   {
-    name: 'I will Surrond myself with Negative People',
+    name: 'I will Surrond myself with Negativ00e People',
     url: ''
   }
 ]

@@ -162,7 +162,6 @@ top: 100px;
 }
 
 /* .swipe:last-of-type {
-
 } */
 
 .card h3 {
@@ -225,4 +224,19 @@ top: 100px;
   57%  { transform: scale(1,1) }
   64%  { transform: scale(1,1) }
   100% { transform: scale(1,1) }
+}
+
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+button,
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+.blog_title{
+  left:0%;
+  text-align: center;
 }

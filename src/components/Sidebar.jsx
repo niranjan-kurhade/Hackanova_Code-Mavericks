@@ -7,7 +7,8 @@ import {
     FaCommentAlt,
     FaCalendarAlt,
     FaThList,
-    FaHome
+    FaHome,
+    FaBlog
 }from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
@@ -45,6 +46,11 @@ const Sidebar = ({children}) => {
             path:"/community",
             name:"Community",
             icon:<FaCommentAlt/>
+        },
+        {
+            path:"/blog",
+            name:"Blog",
+            icon:<FaBlog/>
         }
        
         /*{
