@@ -12,13 +12,13 @@ import Blog from './pages/pages/Blog/index.jsx';
 import Home1 from './pages/pages/Home/index.jsx';
 import Desktop1 from './pages/Desktop1.js';
 import Desktop2 from './pages/Desktop2.js';
+import Landingpage from './pages/Landingpage.jsx';
 const App = () => {
   return (
     <BrowserRouter>
       <Sidebar>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Landingpage />} />
           <Route path="/cards" element={<Cards />} />
           <Route path="/desktop-1" element={<Desktop1 />} />
           <Route path="/desktop-2" element={<Desktop2 />} />
